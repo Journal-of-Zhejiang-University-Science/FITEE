@@ -1,0 +1,727 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=latex 2017.7.27)  24 AUG 2017 15:59
+entering extended mode
+**./sample.tex
+(sample.tex
+LaTeX2e <2017-04-15>
+Babel <3.12> and hyphenation patterns for 75 language(s) loaded.
+(D:\CTEX\MiKTeX\tex\latex\base\article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(D:\CTEX\MiKTeX\tex\latex\base\size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (fitee.sty
+Package: fitee 
+
+(D:\CTEX\MiKTeX\tex\latex\amsmath\amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(D:\CTEX\MiKTeX\tex\latex\amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(D:\CTEX\MiKTeX\tex\latex\amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+(D:\CTEX\MiKTeX\tex\latex\amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen104
+)
+(D:\CTEX\MiKTeX\tex\latex\amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count87
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count88
+\leftroot@=\count89
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count90
+\DOTSCASE@=\count91
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count92
+\c@MaxMatrixCols=\count93
+\dotsspace@=\muskip10
+\c@parentequation=\count94
+\dspbrk@lvl=\count95
+\tag@help=\toks15
+\row@=\count96
+\column@=\count97
+\maxfields@=\count98
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(D:\CTEX\MiKTeX\tex\latex\amscls\amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks19
+\thm@bodyfont=\toks20
+\thm@headfont=\toks21
+\thm@notefont=\toks22
+\thm@headpunct=\toks23
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks24
+)
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(D:\CTEX\MiKTeX\tex\latex\base\latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(D:\CTEX\MiKTeX\tex\latex\tools\bm.sty
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup7
+\symboldletters=\mathgroup8
+\symboldsymbols=\mathgroup9
+\symboldlasy=\mathgroup10
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
+(D:\CTEX\UserData\tex\latex\fancyhdr\fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip49
+\f@nch@O@elh=\skip50
+\f@nch@O@erh=\skip51
+\f@nch@O@olh=\skip52
+\f@nch@O@orh=\skip53
+\f@nch@O@elf=\skip54
+\f@nch@O@erf=\skip55
+\f@nch@O@olf=\skip56
+\f@nch@O@orf=\skip57
+)
+(D:\CTEX\MiKTeX\tex\latex\multirow\multirow.sty
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip58
+\multirow@cntb=\count99
+\multirow@dima=\skip59
+\bigstrutjot=\dimen112
+)
+(D:\CTEX\MiKTeX\tex\latex\tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(D:\CTEX\MiKTeX\tex\latex\graphics\graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(D:\CTEX\MiKTeX\tex\latex\graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+)
+(D:\CTEX\MiKTeX\tex\latex\graphics\graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(D:\CTEX\MiKTeX\tex\latex\graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(D:\CTEX\MiKTeX\tex\latex\graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 99.
+
+(D:\CTEX\MiKTeX\tex\latex\graphics-def\dvips.def
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
+(D:\CTEX\MiKTeX\tex\latex\graphics\color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(D:\CTEX\MiKTeX\tex\latex\graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvips.def on input line 147.
+
+(D:\CTEX\MiKTeX\tex\latex\graphics\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+(D:\CTEX\UserData\tex\latex\preprint\balance.sty
+Package: balance 1999/02/23 4.3 (PWD)
+\oldvsize=\dimen115
+) (authblk.sty
+Package: authblk 2001/02/27 1.3 (PWD)
+\affilsep=\skip60
+\@affilsep=\skip61
+\c@Maxaffil=\count100
+\c@authors=\count101
+\c@affil=\count102
+)
+(D:\CTEX\UserData\tex\latex\titlesec\titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box28
+\beforetitleunit=\skip62
+\aftertitleunit=\skip63
+\ttl@plus=\dimen116
+\ttl@minus=\dimen117
+\ttl@toksa=\toks26
+\titlewidth=\dimen118
+\titlewidthlast=\dimen119
+\titlewidthfirst=\dimen120
+)
+(D:\CTEX\UserData\tex\latex\booktabs\booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen121
+\lightrulewidth=\dimen122
+\cmidrulewidth=\dimen123
+\belowrulesep=\dimen124
+\belowbottomsep=\dimen125
+\aboverulesep=\dimen126
+\abovetopsep=\dimen127
+\cmidrulesep=\dimen128
+\cmidrulekern=\dimen129
+\defaultaddspace=\dimen130
+\@cmidla=\count103
+\@cmidlb=\count104
+\@aboverulesep=\dimen131
+\@belowrulesep=\dimen132
+\@thisruleclass=\count105
+\@lastruleclass=\count106
+\@thisrulewidth=\dimen133
+)
+(D:\CTEX\UserData\tex\latex\caption\caption2.sty
+Package: caption2 2015/09/15 v2.2-100 Customising captions (AR)
+
+
+Package caption2 Warning: ****************************************************
+(caption2)                THIS PACKAGE IS OBSOLETE:
+(caption2)                This package attempts to provide an `caption2'
+(caption2)                package v2.0/2.1 author environment so that OLD
+(caption2)                documents can be successfully processed. It should
+(caption2)                NOT be used for NEW documents! New documents should
+(caption2)                use the regular `caption' package v3.x instead.
+(caption2)                ****************************************************
+
+(D:\CTEX\UserData\tex\latex\caption\caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen134
+\captionmargin@=\dimen135
+\captionwidth=\dimen136
+\caption@tempdima=\dimen137
+\caption@indent=\dimen138
+\caption@parindent=\dimen139
+\caption@hangindent=\dimen140
+)
+Package caption2 Info: Running in caption2 v2.0 compatibility mode on input lin
+e 221.
+\captionlinewidth=\dimen141
+\realcaptionwidth=\dimen142
+)
+(D:\CTEX\MiKTeX\tex\latex\base\fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(D:\CTEX\MiKTeX\tex\latex\base\t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(D:\CTEX\UserData\tex\latex\natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip64
+\bibsep=\skip65
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count107
+) (uarial.sty
+Package: uarial 2006/03/21 1.0 (WaS)
+)
+(D:\CTEX\MiKTeX\tex\latex\tools\array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen143
+\extrarowheight=\dimen144
+\NC@list=\toks27
+\extratabsurround=\skip66
+\backup@length=\skip67
+)
+(D:\CTEX\UserData\tex\latex\algorithms\algorithm.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
+nment
+
+(D:\CTEX\MiKTeX\tex\latex\float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count108
+\float@exts=\toks28
+\float@box=\box29
+\@float@everytoks=\toks29
+\@floatcapt=\box30
+)
+(D:\CTEX\MiKTeX\tex\latex\base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks30
+\c@algorithm=\count109
+)
+(D:\CTEX\UserData\tex\latex\algorithms\algorithmic.sty
+Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
+\c@ALC@unique=\count110
+\c@ALC@line=\count111
+\c@ALC@rem=\count112
+\c@ALC@depth=\count113
+\ALC@tlm=\skip68
+\algorithmicindent=\skip69
+)
+(D:\CTEX\UserData\tex\latex\sttools\stfloats.sty
+Package: stfloats 2017/03/27 v3.3 Improve float mechanism and baselineskip sett
+ings
+\@dblbotnum=\count114
+\c@dblbotnumber=\count115
+)
+(D:\CTEX\UserData\tex\latex\was\upgreek.sty
+Package: upgreek 2003/02/12 v2.0 (WaS)
+Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
+\symugrf@m=\mathgroup11
+LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
+(Font)                  U/eur/m/n --> U/eur/b/n on input line 38.
+)
+\c@lemma=\count116
+\c@definition=\count117
+\c@example=\count118
+\c@experiment=\count119
+\c@theorem=\count120
+
+(D:\CTEX\UserData\tex\latex\titlesec\block.tss
+File: block.tss 2016/03/15
+))
+(D:\CTEX\MiKTeX\tex\generic\babel\babel.sty
+Package: babel 2017/06/29 3.12 The Babel package
+
+(D:\CTEX\MiKTeX\tex\generic\babel\switch.def
+File: switch.def 2017/06/29 3.12 Babel switching mechanism
+)
+*************************************
+* Local config file bblopts.cfg used
+*
+(D:\CTEX\UserData\tex\latex\arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(D:\CTEX\MiKTeX\tex\latex\babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+
+(D:\CTEX\MiKTeX\tex\generic\babel\babel.def
+File: babel.def 2017/06/29 3.12 Babel common definitions
+
+(D:\CTEX\MiKTeX\tex\generic\babel\switch.def
+File: switch.def 2017/06/29 3.12 Babel switching mechanism
+)
+\babel@savecnt=\count121
+\U@D=\dimen145
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(D:\CTEX\MiKTeX\tex\latex\hyperref\hyperref.sty
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(D:\CTEX\MiKTeX\tex\generic\ifxetex\ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(D:\CTEX\MiKTeX\tex\latex\oberdiek\auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(D:\CTEX\MiKTeX\tex\latex\oberdiek\kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen146
+\Hy@linkcounter=\count122
+\Hy@pagecounter=\count123
+
+(D:\CTEX\MiKTeX\tex\latex\hyperref\pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count124
+
+(D:\CTEX\MiKTeX\tex\latex\00miktex\hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 4374.
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count125
+
+(D:\CTEX\UserData\tex\latex\url\url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen147
+\Fld@menulength=\count126
+\Field@Width=\dimen148
+\Fld@charsize=\dimen149
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count127
+\c@Item=\count128
+\c@Hfootnote=\count129
+)
+
+Package hyperref Message: Driver: hdvips.
+
+(D:\CTEX\MiKTeX\tex\latex\hyperref\hdvips.def
+File: hdvips.def 2017/03/14 v6.85a Hyperref driver for dvips
+
+(D:\CTEX\MiKTeX\tex\latex\hyperref\pdfmark.def
+File: pdfmark.def 2017/03/14 v6.85a Hyperref definitions for pdfmark specials
+
+
+Package hyperref Warning: You have enabled option `breaklinks'.
+(hyperref)                But driver `hdvips.def' does not suppport this.
+(hyperref)                Expect trouble with the link areas of broken links.
+
+\pdf@docset=\toks31
+\pdf@box=\box31
+\pdf@toks=\toks32
+\pdf@defaulttoks=\toks33
+\HyField@AnnotCount=\count130
+\Fld@listcount=\count131
+\c@bookmark@seq@number=\count132
+(D:\CTEX\MiKTeX\tex\latex\oberdiek\rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip70
+)) (sample.aux)
+\openout1 = `sample.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box32
+Package hyperref Info: Link coloring OFF on input line 24.
+
+(D:\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(D:\CTEX\MiKTeX\tex\generic\oberdiek\gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count133
+)
+LaTeX Info: Redefining \ref on input line 24.
+LaTeX Info: Redefining \pageref on input line 24.
+LaTeX Info: Redefining \nameref on input line 24.
+ (sample.out)
+(sample.out)
+\@outlinefile=\write3
+\openout3 = `sample.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 87.
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 87.
+
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+lasy on input line 87.
+
+(D:\CTEX\MiKTeX\tex\latex\base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <5> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 87.
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 87.
+
+(D:\CTEX\UserData\tex\latex\arial\t1ua1.fd
+File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
+)
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 6.64998pt on input line 87.
+File: fitee.eps Graphic file (type eps)
+ <fitee.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+
+ []
+
+
+LaTeX Font Warning: Font shape `T1/cmr/m/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 87.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 87.
+
+
+LaTeX Font Warning: Font shape `T1/cmr/bx/it' in size <16> not available
+(Font)              size <17.28> substituted on input line 87.
+
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 87.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 87.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 87.
+(D:\CTEX\MiKTeX\tex\latex\base\omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 87.
+LaTeX Font Info:    Try loading font information for T1+cmbr on input line 87.
+
+(D:\CTEX\UserData\tex\latex\cmbright\t1cmbr.fd
+File: t1cmbr.fd 2005/04/13 v8.1 (WaS)
+)
+LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <8> not available
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 87.
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 8.54997pt on input line 87.
+LaTeX Font Info:    Font shape `T1/ua1/m/sl' in size <9> not available
+(Font)              Font shape `T1/ua1/m/it' tried instead on input line 87.
+LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
+(Font)              scaled to size 8.54997pt on input line 87.
+
+Overfull \hbox (2.84544pt too wide) in paragraph at lines 87--87
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+
+ []
+
+File: orcid16.eps Graphic file (type eps)
+<orcid16.eps>
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 11.39996pt on input line 88.
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 9.49997pt on input line 89.
+LaTeX Font Info:    Font shape `T1/ua1/m/sl' in size <10> not available
+(Font)              Font shape `T1/ua1/m/it' tried instead on input line 89.
+LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
+(Font)              scaled to size 9.49997pt on input line 89.
+
+Underfull \hbox (badness 2042) in paragraph at lines 114--115
+[][]\T1/cmr/m/n/10 The elec-tronic manuscript should be pre-
+ []
+
+
+Underfull \hbox (badness 1917) in paragraph at lines 114--115
+\T1/cmr/m/n/10 pared to ac-cord with the fol-low-ing (see also
+ []
+
+LaTeX Font Info:    Font shape `T1/ua1/m/sl' in size <7> not available
+(Font)              Font shape `T1/ua1/m/it' tried instead on input line 115.
+LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
+(Font)              scaled to size 6.64998pt on input line 115.
+[1
+
+
+]
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 145.
+File: pics/jzusalogo.eps Graphic file (type eps)
+ <pics/jzusalogo.eps>
+LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
+(Font)              scaled to size 7.59998pt on input line 147.
+File: pics/jzusblogo.eps Graphic file (type eps)
+ <pics/jzusblogo.eps>
+File: pics/fiteelogo.eps Graphic file (type eps)
+ <pics/fiteelogo.eps>
+LaTeX Font Info:    Font shape `T1/ua1/m/sl' in size <8> not available
+(Font)              Font shape `T1/ua1/m/it' tried instead on input line 153.
+LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
+(Font)              scaled to size 7.59998pt on input line 153.
+
+Underfull \hbox (badness 3019) in paragraph at lines 153--153
+\T1/cmr/bx/it/8 SCIENCE A (Ap-plied Physics \T1/ua1/m/it/8 & \T1/cmr/bx/it/8 En
+-gi-neer-ing)
+ []
+
+[2]
+Overfull \hbox (0.61908pt too wide) in alignment at lines 167--181
+[][][][][][][][][] 
+ []
+
+File: pics/outlierdetection.eps Graphic file (type eps)
+<pics/outlierdetection.eps>
+Overfull \hbox (3.53854pt too wide) in alignment at lines 201--216
+[][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 224.
+
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
+put line 267.
+[3]
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 306.
+
+
+Package natbib Warning: Citation `Gregersen06' on page 4 undefined on input lin
+e 307.
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 314--315
+[][]\T1/cmr/m/n/10 For an elec-tronic ma-te-rial ([]Uni-ver-sity of
+ []
+
+(sample.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
+\T1/cmr/m/n/8 http://www.shef.ac.uk/library/libdocs/hsl-dvc1.pdf
+ []
+
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
+[4])
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 383.
+
+Overfull \vbox (1.38025pt too high) has occurred while \output is active []
+
+
+[5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 383.
+ (sample.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 383.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 383.
+Package rerunfilecheck Info: File `sample.out' has not changed.
+(rerunfilecheck)             Checksum: 093AEE05E7445DF623839A2A2EC53718;728.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.28pt have occurred.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 383.
+ ) 
+Here is how much of TeX's memory you used:
+ 8916 strings out of 493319
+ 124011 string characters out of 3144728
+ 231596 words of memory out of 3000000
+ 12224 multiletter control sequences out of 15000+200000
+ 82523 words of font info for 125 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 43i,14n,45p,819b,586s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on sample.dvi (5 pages, 49028 bytes).

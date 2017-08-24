@@ -1,0 +1,383 @@
+% First release on 2010/06/21
+% Modified on 2011/5/6
+
+\documentclass[twoside,twocolumn]{article}
+
+\usepackage{fitee}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{stfloats}
+\usepackage{balance}
+
+%% if you want to remove all changes commands in tex file, use "delcmdchanges.bash [-i] [-h] <inputfile> <outputfile>"
+%\usepackage[draft]{changes}		% draft or final
+%\definechangesauthor[name={Xue Shengke}, color=orange]{XSK}
+
+\usepackage[english]{babel}
+
+%\usepackage[hidelinks, breaklinks = true]{hyperref}
+\usepackage[dvips, hidelinks, breaklinks = true]{hyperref}
+\addto{\captionsenglish}{%
+  \renewcommand{\figurename}{Fig.}
+}
+
+\begin{document}
+
+%% N affiliations
+\title{Example of using \emph{FITEE} LaTex template \\[4mm] second line if necessary}
+%% when all authors provide emails, no $\dagger$
+\author[$\dagger$$\ddagger$1]{Zi-yang ZHAI}%
+\author[2]{Xian-liang HU}
+\affil[1]{Editorial Office of Journal of Zhejiang University-SCIENCE, Hangzhou 310027, China}
+\affil[2]{Department of Mathematics, Zhejiang University, Hangzhou 310027, China}
+
+%% Only 1 affiliations
+%\author{Wen-fei WANG}
+%\author{Rong XIONG\textsuperscript{$\dagger$}}
+%\author{Jian CHU}
+%\affil{\it\footnotesize State Key Laboratory of Industrial Control Technology, Institute of Cyber-Systems and Control,
+%	\authorcr\it\footnotesize Zhejiang University, Hangzhou 310027, China}
+
+% for authors, use \authorcr to begin with a new line, e.g., \author[2]{\authorcr Xian-liang HU}
+% for the affiliation, use \authorcr\Affilfont\it to begin with a new line, e.g.,
+%\affil[1]{Editorial Office of Journal of Zhejiang University SCIENCE,
+%\authorcr\Affilfont\it Hangzhou 310027, China}
+
+\authmark{ }
+
+\corremailA{jzus\_zzy@zju.edu.cn} 
+%\corremailB{xlhu@zju.edu.cn}
+\emailmark{}
+
+%\corremailA{jzus\_zzy@zju.edu.cn}
+%\corremailB{xlhu@zju.edu.cn}
+%\corremailC{abc@zju.edu.cn}
+%\corremailD{ABC@zju.edu.cn}
+%\emailmark{$\dagger$}
+
+\abstract{This brief sample shows how to use the \emph{Frontiers of Information Technology {\sf \slshape \&} Electronic Engineering} (\emph{FITEE} for short) LaTex template, by listing the system requirement \& installation of compilation environments and including comments in the tex file to contain all possible instances that may occur in articles considered to be published in \emph{FITEE}, which starts in 2010, monthly, co-published by Zhejiang University Press and Springer. We also introduce the aim \& scope, database information, and online submission of \emph{FITEE}, and show the different paper formats at the two stages of ``manuscript preparation'' and ``revision \& acceptance''. The logos and homepage of the three sibling journals \emph{JZUS(A/B)} and \emph{FITEE} are also included.}
+\keywords{Manual; LaTex template; \emph{Frontiers of Information Technology {\sf \slshape \&} Electronic Engineering}}
+
+\shortauthor{Zhai et al.}	% first author
+
+\doi{http://dx.doi.org/10.1631/FITEE.1000000}	% ID of the paper, should be accurate
+\code{A}
+\clc{TP}
+
+\publishyear{2017}
+\vol{1}
+\issue{1}
+\pagestart{1}
+\pageend{5}
+
+%% when no funding, the following line should be removed, no period at last
+\support{Project (No.~xxxxxxxx) supported by the National Natural Science Foundation of China} 
+
+%\conf{A preliminary version of this paper has been presented at ??? Conference, date}
+%\esm{Electronic supplementary materials: The online version of this article (http://dx/doi.org/10.1631/jzus.C1000000) contains supplementary materials, which are available to authorized users}
+\orcid{ORCID: Zi-yang ZHAI, http://orcid.org/xxxx-xxxx-xxxx-xxxx}	% corresponding author, or first author
+\articleType{}
+%\articleType can be `Science Letters:', `Review:', `Comment:', etc.
+%Leave blank for research article.
+
+% abbrev. of month: Jan. Feb. Mar. Apr. May June July Aug. Sept. Oct. Nov. Dec.
+\dateinfo{Received Xxx.~xx, 2016;\ \ Revision accepted Xxx.~xx, 2016;\ \ Crosschecked Xxx.~xx, 2017}
+
+\maketitle
+
+\section{System requirement \& installation}\label{sec:introduction}
+  This is a brief example of using the \emph{FITEE} LaTex template to format the article published in \emph{Frontiers of Information Technology {\sf \slshape \&} Electronic Engineering} (\emph{FITEE} for short). This is the preliminary version of fitee.sty as well as fitee.bst as a template. Welcome reports on bugs and suggestions for improvement.
+
+%This is \added[XSK]{new} text.
+%This is \deleted[XSK]{unnecessary} text.
+%This is \replaced[XSK]{normal}{bad} text.
+
+%\listofchanges
+
+This template has been tested under the Windows 2000/XP/Vista/Windows 7 operating system with the newest version MiKTex; it can also work with any previous version of MiKTex, even with MacTeX, teTeX and other LaTex implementations. The most convenient way is to put the files under the same directory as your LaTex source file. For saving processing time, we suggest authors use the default setting. It is highly recommended to download the newest version CTex from http://www.ctex.org
+
+\section{Introduction of \emph{FITEE}}
+
+\noindent \textbf{Aim \& scope:} \emph{FITEE} (former title: \emph{Journal of Zhejiang University-SCIENCE C (Computers {\sf \slshape \&} Electronics)} (\emph{JZUS-C} for short)), is an international peer-reviewed journal. It covers research in Computer Science, Electrical and Electronic Engineering, Information Sciences, Automation, Control, Telecommunications, as well as Applied Mathematics related to Computer Science.
+
+\noindent \textbf{Database information:} \emph{FITEE} has been accepted by Science Citation Index-Expanded (SCI-E), Ei Compendex, DBLP, IC, Scopus, JST, CSA, etc. since 2010.
+
+
+
+
+\noindent \textbf{Online submission:} www.editorialmanager.com/\ zusc/
+
+\section{Paper format}
+
+\subsection{Preparing manuscript}
+
+The electronic manuscript should be prepared to accord with the following (see also http://www.zju.edu.cn/jzus/manuscript.htm):
+
+\noindent \textbf{Title and by-line:} Name, affiliation (institution) of the author(s), city, zip code, country, and e-mail address of the author(s) should be given.
+
+\noindent \textbf{Abstract:} About 150--250 words should outline the objective, method, main results, and conclusions without mathematical equations or citations.
+
+\noindent \textbf{Key words:} Provide 3--6 key words or phrases for cross-indexing this article.
+
+\noindent \textbf{Text:} The text should contain an Introduction that puts the paper into proper perspective for the reader, and should also contain Methods, Results, Discussion, and Conclusions sections.
+
+\noindent \textbf{Acknowledgements:} Individuals or units other than authors who were of direct help in the work should be acknowledged by a brief statement following the text.
+
+\noindent \textbf{References:} Only essential references (journal article, book, thesis, report, proceedings, etc.) cited in the text (in Author-Year format) can be listed in alphabetical order by author's surname.
+
+
+\subsection{Revision \& acceptance}
+
+\subsubsection{Figures}\label{sec:figure}
+
+\noindent \textbf{Format:} At the revision stage, authors who have created their files using a drawing or painting program such as Visio, Origin, Excel, AutoCAD, Coreldraw should provide the original files that can be edited. Authors who have created their files using a drawing or painting program should export the files to TIFF, EPS, PSD, RAW, etc. format. Matlab figures are expected to be exported to EMF or EPS format. The figure's magnification should be expressed by scale bars.
+
+\noindent \textbf{Resolution:} Adequate figure resolution is essential to a high-quality print and online rendering of your paper. Raster line art should carry an absolute minimum resolution of 600 dots per inch (dpi).
+
+\noindent \textbf{Line width:} The line width should generally be no less than 0.25 pt; the common line widths are 0.5/0.75 pt. Please note that the actual line width changes with the scale of the figure. In different software, we recommend the following line widths: Visio: -- 03; Origin: -- 1.5; Matlab: -- 1.5 pt, etc.
+
+Figures must be numbered consecutively with Arabic numerals, and each figure must be placed in the text following the paragraph in which it is first mentioned. A caption giving the figure number and a brief description must be included. The caption should be understandable without reference to the text. Figures should be cited in the text using the following format: Fig.~1, Fig.~1a, Figs.~1 and 2, Figs.~1--3, or Figs.~1a--1c.
+
+There will be an extra charge for those graphics considered for publication in color. Authors are expected to use different line types to distinguish the different parts of a figure that they do not want to have published in color.
+
+\begin{figure}[!htb]\small
+\centering
+\begin{tabular}{c}
+\includegraphics[scale=0.9]{pics/jzusalogo.eps}\\
+\footnotesize\sf (a)\\[3mm]
+\includegraphics[scale=0.9]{pics/jzusblogo.eps}\\
+\footnotesize\sf (b)\\
+\includegraphics[scale=0.26]{pics/fiteelogo.eps}\\
+\footnotesize\sf (c)\\
+\end{tabular}
+\caption{Logos of \emph{Journal of Zhejiang University-SCIENCE A (Applied Physics {\sf \slshape \&} Engineering)} (a), \emph{Journal of Zhejiang University-SCIENCE B (Biomedicine {\sf \slshape \&} Biotechnology)} (b), and \emph{Frontiers of Information Technology {\sf \slshape \&} Electronic Engineering} (c)}
+\label{fig:logo}
+\end{figure}
+
+
+\subsubsection{Tables}\label{sec:table}
+
+Tables should usually contain three horizontal lines. Do not use vertical lines. Each table must have a brief title that describes its contents. The title should be understandable without reference to the text. Details such as explanatory material, specific entries, and definitions of non-standard abbreviations should be put in table footnotes, not in the title. In setting up tables, authors should keep in mind the area of the Journal's page (16.4 cm $\times$ 22.8 cm) and the column width (8.0 cm) and should make tables conform to the limitations of these dimensions.
+
+\begin{table*}[thp]\footnotesize
+%\begin{footnotesize}
+\centering \caption{Results for face and eye detection processing
+using a Pentium IV 2.2 GHz
+CPU$^\textbf{*}$ \citep{Deniz10}}\label{Table:FacesDetected}
+\begin{tabular*}{16cm}{@{\qquad}l@{\qquad}c@{\qquad}c@{\qquad}ccc@{\qquad}c@{\qquad}c@{\qquad}c}
+\toprule[0.75pt]
+\multirow{2}{*}{Detector} & \multicolumn{3}{c}{TD (\%)} &  & \multicolumn{3}{c}{FD (\%)} & \multicolumn{1}{c}{Processing time} \\
+\cmidrule[0.5pt]{2-4}\cmidrule[0.5pt]{6-8}
+& Faces & Left eye & Right eye &  & Faces & Left eye & Right eye & (ms) \\
+\midrule[0.5pt]
+Rowley  & 89.27 & 77.51   &  78.18  &  &  2.16 & 0.80 & 1.00 & 422.4 \\
+Viola-Jones  & 97.69 & 0.00  &  0.00  &  & 8.25  &  &  & 117.5 \\
+ENCARA2  &  99.92 & 91.83 &  92.48 &  &  8.07  &  4.04 & 3.33 &45.6\\
+\bottomrule[0.75pt]
+\multicolumn{9}{p{15.6cm}}{\scriptsize $^*$ Taken
+from Castrill\'{o}n \emph{et al}. (2007). TD: correct detection
+ratio; FD: false detection ratio}
+
+\end{tabular*}
+\end{table*}
+
+
+\begin{figure}[tbh]
+  \centering
+      \includegraphics[width=7.2cm]{pics/outlierdetection.eps}
+  \caption{Comparison of different methods in terms of
+  outlier detection accuracy \citep{Zhou11}}\label{fig:Prediction}
+\end{figure}
+
+
+
+All tables must be mentioned in the text in consecutive order and must be numbered with Arabic numbers. Tables should be cited in the text using the following format: Table~1, Tables~1 and 2, or Tables~1--3.
+
+
+\begin{table}[thp]\footnotesize
+\caption{Video sequences used in the experiments, ordered by
+increasing head motion$^\textbf{*}$ \citep{Deniz10}}\label{Table:1}
+\centering
+\begin{tabular*}{7.9cm}{@{\qquad}c@{\qquad}c@{\qquad}c@{\qquad}c@{\qquad}}
+\toprule[0.75pt]
+Video  & Number of & Average    & Variance \\
+sequence       & frames    & distance & \ \ position \\
+\midrule[0.5pt]
+1     & 126    & 42.7 (1.6)                           & 8.2                       \\
+2     & 175    & 42.9 (2.2)                           & 11.1                      \\
+3     & 176    & 44.1 (1.8)                           & 11.3                      \\
+4     & 148    & 40.0 (2.8)                           & 27.1                      \\
+5     & 119    & 42.9 (2.8)                           & 37.7                      \\
+6     & 129    & 42.9 (4.4)                           & 120.8                      \\
+7     & 208    & 41.6 (3.1)                           & 164.4                      \\
+\bottomrule[0.75pt]
+\multicolumn{4}{p{7.6cm}}{\scriptsize $^*$ Taken from
+images captured by camera 1}
+\end{tabular*}
+\end{table}
+
+\subsubsection{Variables and formulate}
+
+Variables, regardless of the context (formula, figure, or table), should be in Italics (e.g., $x_1$); if a variable represents a vector or a matrix, it should be in Italics \& Bold (e.g., $\emph{\textbf{x}}_1$). Numerals and operators should never be italicized unless they are components of a variable. The following are some typical equations \citep{Theodoridis11}:
+
+\begin{equation}
+{{\rm d} \over {{\rm d}t}}{|\bar {\emph{\textbf{x}}}_{f_i} \cdot {\emph{\textbf{W}}}_{f_i}^l |^2 }= ({{\emph{\textbf{W}}}_{f_i}^l})^{\rm T} \dot {\emph{\textbf{W}}}_{f_i}^l \bar {\emph{\textbf{x}}}_{f_i}({\bar {\emph{\textbf{x}}}_{f_i}})^{\rm T},
+\end{equation}
+\begin{equation}\label{indicatorfunc}
+I_{{{j_{1}},{j_{2}},...,{j_{n}}}}^{{{l_{1}},{l_{2}},...,{l_{n}}}} (\emph{\textbf{x}}(t))= \left\{ \begin{matrix}\alpha(\emph{\textbf{x}}(t)), & {\mathrm{if}\:\emph{\textbf{x}}(t) \in\Omega_{{{j_{1}},{j_{2}},...,{j_{n}}}}^{{{l_{1}},{l_{2}},...,{l_{n}}}}},\cr 0, & {\mathrm{otherwise,}}\cr\end{matrix}\right.
+\end{equation}
+\begin{eqnarray}\label{eqn:Lyapdisturb1}
+\dot V & \leq & - \lambda_{\rm min}\left( K \right) \left\| {\bm \xi} \right\|^2 - \lambda_{\rm min}\left( K \right) \left\| {\bm \zeta} \right\|^2  \nonumber\\
+&& +\theta_{\rm ud} \left\| {\bm \xi} \right\| + 4 \rho \left\| {{\bm \xi} } \right\|^2 \nonumber\\
+& \leq & - \left[ \left( \lambda_{\rm min}\left( K \right)- 4 \rho \right)\left\| {\bm \xi} \right\|  -  \theta_{\rm ud}  \right] \left\| {\bm \xi} \right\|  \nonumber\\
+&& -\lambda_{\rm min}\left( K \right) \left\| {\bm \zeta} \right\|^2 \nonumber\\
+&\leq& 0.
+\end{eqnarray}
+
+
+\subsubsection{Theorem, algorithm and other environments}
+
+\begin{definition}[Definition title here]
+This is an illustration of a definition.
+\end{definition}
+
+\begin{example}
+This is an illustration of an example.
+\end{example}
+
+\begin{lemma}[Lemma title here]
+This is a lemma.
+\end{lemma}
+
+\begin{experiment}
+This is an experiment.
+\end{experiment}
+
+\begin{theorem}[Theorem title here]
+This is a theorem.
+\end{theorem}
+
+\begin{theorem}[Theorem~2 title here]
+This is an illustration of Theorem~2.
+\end{theorem}
+
+The following is a sample algorithm: Algorithm~\ref{alg:update-alg} \citep{Xu11}.
+
+\begin{algorithm}\small
+\caption{Iterative algorithm for Bayes risk decoding} \centering
+\begin{algorithmic}[1]
+	\STATE {$R' \gets \text{MAP-Decode}(\mathcal T)$}
+	\algocomment{One-best to initialize}
+	\STATE {$R' \gets {\text {AddEps}}(R')$}
+	\algocomment{ Add $\epsilon$ word to normalize $R'$}
+	\LOOP	
+            \STATE {do forward algorithm, yielding estimate $\hat E_1$}
+		\FOR{ $k \gets  1 ~{\rm to}~ |R'| $ }
+		\STATE{do backward algorithm, obtaining $\gamma(k, w(a))$}
+		\STATE{update to $R$: $r_k \gets {\rm max}_{w(a)}\gamma_{R'}(k,w(a))$}
+		\ENDFOR
+		\STATE{do line~4~with $R$, obtaining $\hat E_2$}
+		\IF{$\hat E_2 -\hat E_1 =0$}
+			\STATE{break}
+		\ENDIF
+		\STATE{$R' \gets R$}
+		 \STATE{$\hat E_1 \gets \hat E_2$}
+		\STATE {$R' \gets {\text {AddEps}}(R')$}
+	\ENDLOOP
+	\STATE {$R' \gets {\text {RemoveEps}}(R')$}
+	\algocomment{Remove $\epsilon$ word to output}
+\end{algorithmic}
+	\label{alg:update-alg}
+\end{algorithm}	
+
+\subsubsection{References \& text citation}
+
+The reference list provides complete information of the author-date citation in English and lists in alphabetical order of authors' surnames.
+References with more than 10 authors must list the first 10 authors, followed by \emph{et al}. The references mentioned in the text should accord with the reference list. For a reference published other than in English, the language used should be noted at the end of the reference list, e.g., ``(in Chinese)''. The publisher and place of publication should be given for a book or proceedings. The DOI (refer to http://www.doi.org) should be provided if it is available.
+
+Here are the rules: the command ``$\backslash$citep\{\}'' provides a pair
+around the reference, while ``$\backslash$cite\{\}'' cannot. The
+following are some constantly used citations in our template. When
+you cannot determine the reference type, or the reference type is
+not included in our template, please use the ``misc'' type. Any
+suggestion on the improvement of the fitee.bst is welcome.
+\begin{itemize}
+\itemsep -1pt
+\item For journal articles \citep{Kampf02, TWFS03, Yu10}
+\item For whole books/monographs \citep{Gregersen06} or chapters in edited books \citep{Prigogine76}
+\item For a proceeding \citep{GQMPSD06}
+\item For a master or PhD dissertation \citep{Rizvi06}
+\item For a report \citep{Sweeney00}
+\item For a preprint \citep{WAWYCZM08}
+\item For a patent \citep{Cookson85}
+\item For a standard \citep{ISO82}
+\item For an electronic material \citep{Sheffield01}
+\end{itemize}
+
+For details, see ``Reference list examples'' at http://www.zju.edu.cn/jzus/revacc.htm\#1
+
+\balance
+\bibliographystyle{fitee}
+\bibliography{bibsample}
+
+%=========================================
+%Authors can choose to use the bibliography or
+%directly paste the references beginning with '\item' with the following setting.
+%=========================================
+
+%\vspace{9pt} {\par
+%\noindent\bf References \par}
+%\begin{description}\footnotesize
+%
+%%{description}
+%%\baselineskip 0pt -- line space within an item
+%%\itemsep -3pt     -- line space between two items
+%
+%\itemsep -3.5pt
+%
+%%\setlength\baselineskip{12pt}
+%\makeatletter \setlength{\labelwidth}{0pt}\setlength{\labelsep}{0pt}
+%\renewenvironment{thebibliography}[1]
+%{\section*{\refname}%
+%\@mkboth{\MakeUppercase\refname}{\MakeUppercase\refname}%
+%\list{\@biblabel{\@arabic\c@enumiv}}%
+%{\settowidth\labelwidth{\@biblabel{#1}}%
+%\leftmargin\labelwidth \advance\leftmargin\labelsep
+%\advance\leftmargin by 2em %%
+%\itemindent -2em %%
+%\@openbib@code
+%\usecounter{enumiv}%
+%\let\p@enumiv\@empty
+%\renewcommand\theenumiv{\@arabic\c@enumiv}}%
+%\sloppy \clubpenalty4000 \@clubpenalty \clubpenalty
+%\widowpenalty4000%
+%\sfcode`\.\@m} {\def\@noitemerr
+%{\@latex@warning{Empty `thebibliography' environment}}%
+%\endlist}
+%\makeatother
+%
+%\vspace{-9pt}
+%
+%\item  Cookson, A.H., 1985. Particle Trap for Compressed Gas Insulated Transmission Systems. US Patent, 4554399.
+%\item  Deniz, O., Castrillon, M., Lorenzo, J., Anton, L., Hernandez, M., Bueno, G., 2010. Computer vision based eyewear selector. {\em J. Zhejiang Univ.-Sci. C (Comput. \& Electron.)}, {\bf11}(2):79--91. [doi:10.1631/jzus.C0910377]
+%\item  Gorini, S., Quirini, M., Menciassi, A., Permorio, G., Stefanini, C., Dario, P., 2006. A Novel SMA-Based Actuator for a Legged Endoscopic Capsule. First IEEE/RAS-EMBS International Conference on Biomedical Robotics and Biomechatronics, p.443--449. [doi:10.1109/BIOROB.2006.1639128]
+%\item  Gregersen, H., 2006. Biomechanics of the Gastrointestinal Tract. People's Medical Publishing House, Beijing, China, p.216--236.
+%\item  ISO 4948-1:1982. Steels-Classification-Part 1: Classification of Steels into Unalloyed and Alloy Steels Based on Chemical Composition. International Organization for Standardization, Geneva.
+%\item  Kampf, S.K., Salazar, M., Tyler, S.W., 2002. Preliminary investigations of effluent drainage from mining heap leach facilities. \emph{Vadose Zone J.}, \textbf{1}(1):186--196. Available from http://www.vadosezonejournal.org
+%\item  Prigogine, I., 1976. Order Through Fluctuation: Self Organization and Social System. \emph{In}: Jantsch, E., Waddington, C. (Eds.), Evolution and Consciousness: Human Systems in Transition. Addison-Wesley, London, p.93--134.
+%\item  RedHat, Microsoft, IBM and Sun, 2010. A Hand Book for Computers. ebook series 1(1):1--1000. Available from http://www.opticalinnovations.com
+%\item  Rizvi, U.H., 2006. Combined Multiple Transmit Antennas and Multi-Level Modulation Techniques. MS Thesis, Royal Institute of Technology, Stockholm, Sweden (in Swedish).
+%\item  Sweeney, L., 2000. Uniqueness of Simple Demographics in the U.S. Population. Technical Report, No.~LIDAP-WP4. Laboratory for International Data Privacy, Carnegie Mellon University, PA.
+%\item  Tanner, N.A., Wait, J.R., Farrar, C.R., Sohn, H., 2003. Structural health monitoring using modular wireless sensors. \emph{J. Intell. Mater. Syst. Struct.}, \textbf{14}(1):43--56. [doi:10.1177/1045389X03014001005]
+%\item  Theodoridis, D., Boutalis, Y., Christodoulou, M., 2011. Direct adaptive regulation of unknown nonlinear systems with analysis of the model order problem. {\em J. Zhejiang Univ.-Sci. C (Comput. \& Electron.)}, {\bf12}(1):1--16. [doi:10.1631/jzus.C1000224]
+%\item  University of Sheffield Library, 2001. Citing Electronic Sources of Information. Available from http://www.shef.ac.uk/library/libdocs/hsldvc1.pdf [Accessed on Feb. 23, 2007].
+%\item  Wu, Z., An, Y., Wang, Z., Yang, S., Chen, H., Zhou, Z., Mai, S., 2008. Study on zoelite enhanced contact adsorption regeneration-stabilization process for nitrogen removal. \emph{J. Hazard. Mater.}, in press. [doi:10.1016/j.jhazmat.2007.12.029]
+%\item  Xu, H.H., Zhu, J., 2011. An iterative approach to bayes risk decoding and system combination. {\em J. Zhejiang Univ.-Sci. C (Comput. \& Electron.)}, {\bf12}(3):204--212. [doi:10.1631/jzus.C1000045]
+%\item  Yu, L., Wang, J.P., 2010. Review of the current and future technologies for video compression. \emph{J. Zhejiang Univ.-Sci. C (Comput. {\sf \slshape \&} Electron.)}, \textbf{11}(1):1--13. [doi:10.1631/jzus.C0910684]
+%\item  Zhou, X.C., SHEN, H.B., YE, J.P., 2011. Integrating outlier filtering in large margin training. {\em J. Zhejiang Univ.-Sci. C (Comput. \& Electron.)}, {\bf12}(5):362--370. [doi:10.1631/jzus.C1000361]
+%
+%\end{description}
+
+
+
+\end{document}
