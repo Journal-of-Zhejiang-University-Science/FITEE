@@ -118,5 +118,7 @@ Recipe for a Quality Scientific Paper: Fulfill Readers' and Reviewers' Expectati
 by Yaoqi Zhou
 
 Journal of Zhejiang University-SCIENCE, 38 Zheda Road, Hangzhou 310027, China
+
 Tel: +86-571-87952276; Fax: +86-571-87952331; E-mail: jzus@zju.edu.cn 
+
 Copyright © 2000 - 2017	Journal of Zhejiang University-SCIENCE
