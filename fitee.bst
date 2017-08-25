@@ -325,19 +325,17 @@ FUNCTION {format.atitle}
 }
 
 FUNCTION {n.dashify} 
-{ 't := ""
+{ 't := "" 
     { t empty$ not }
-    { t #1 #1 substring$ "--" =
-		{ t #1 #2 substring$ "--" = not
-			{ "-" *
-			  t #2 global.max$ substring$ 't :=
+    { t #1 #1 substring$ "-" = 
+		{ t #1 #2 substring$ "--" = not 
+			{ 
+			   "-" *
+			   t #2 global.max$ substring$ 't :=
 			}
-			{   
-				{ t #1 #1 substring$ "-" = }
-				{   "-" *
-					t #2 global.max$ substring$ 't :=
-				}
-			    while$
+			{    
+			   "-" *
+			   t #3 global.max$ substring$ 't :=
 			}
 		  if$
 		}
