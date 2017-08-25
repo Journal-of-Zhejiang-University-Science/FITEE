@@ -1016,7 +1016,7 @@ FUNCTION {begin.bib}
     'skip$
     { preamble$ write$ newline$ }
   if$
-  "\balance" write$ newline$	% require package balance
+%  "\balance" write$ newline$	% require package balance
   "\begin{thebibliography}{}\footnotesize" write$ newline$
   "\itemsep -4pt" write$ newline$
   "\vspace{-8pt}" write$ newline$
