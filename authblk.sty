@@ -160,8 +160,8 @@
         {\def\\{, \ignorespaces}\xdef\AB@temp{#2}}% 定义新加的地址为\AB@temp
         \@temptokena=\expandafter{\AB@affillist}%
         \xdef\AB@affillist{\the\@temptokena \AB@affilsep
-          {\fontfamily{cmbr}\selectfont \protect\rm(}\AB@affilnote{\it\AB@note}
-          \hspace{-4pt}\protect\Affilfont\it\AB@temp {\fontfamily{cmbr}\selectfont\protect\rm)}}% 地址和标注加到这里！！
+          {\fontfamily{cmbr}\selectfont \protect\rm }\AB@affilnote{\it\AB@note}
+          \hspace{-4pt}\protect\Affilfont\it\AB@temp {\fontfamily{cmbr}\selectfont\protect\rm }}% 地址和标注加到这里！！
       \endgroup
        \let\AB@affilsep\AB@affilsepx
 }

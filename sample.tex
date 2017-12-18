@@ -1,39 +1,34 @@
-% First release on 2010/06/21
-% Modified on 2011/5/6
+% First release on June 21, 2010
+% Modified on Dec 12, 2017 by XSK
 
 \documentclass[twoside,twocolumn]{article}
 
 \usepackage{fitee}
-\usepackage{color}
-\usepackage{graphicx}
-\usepackage{stfloats}
-\usepackage{balance}
 
-%% if you want to remove all changes commands in tex file, use "delcmdchanges.bash [-i] [-h] <inputfile> <outputfile>"
-%\usepackage[draft]{changes}		% draft or final
-%\definechangesauthor[name={Xue Shengke}, color=orange]{XSK}
-
-\usepackage[english]{babel}
-
-%\usepackage[hidelinks, breaklinks = true]{hyperref}
-\usepackage[dvips, hidelinks, breaklinks = true]{hyperref}
+%\usepackage[colorlinks, breaklinks = true]{hyperref}		% for pdflatex
+\usepackage[dvips, hidelinks, breaklinks = true]{hyperref}  % for DVI to PDF latex
 \addto{\captionsenglish}{%
   \renewcommand{\figurename}{Fig.}
 }
 
 \begin{document}
 
-%% N affiliations
-\title{Example of using \emph{FITEE} LaTex template \\[4mm] second line if necessary}
+%% article title
+\title{Example of using \emph{FITEE} LaTeX template \\ second line if necessary}
+
 %% when all authors provide emails, no $\dagger$
 \author[$\dagger$$\ddagger$1]{Zi-yang ZHAI}%
-\author[2]{Xian-liang HU}
+\author[$\dagger$2]{Xian-liang HU}
 \affil[1]{Editorial Office of Journal of Zhejiang University-SCIENCE, Hangzhou 310027, China}
 \affil[2]{Department of Mathematics, Zhejiang University, Hangzhou 310027, China}
 
+\shortauthor{Zhai and Hu}	% one author: only Zhai; two authors: Zhai and Hu; three authors: Zhai et al.
+
+\authmark{}
+
 %% Only 1 affiliations
 %\author{Wen-fei WANG}
-%\author{Rong XIONG\textsuperscript{$\dagger$}}
+%\author{Rong XIONG$^{\dagger\ddagger}$}
 %\author{Jian CHU}
 %\affil{\it\footnotesize State Key Laboratory of Industrial Control Technology, Institute of Cyber-Systems and Control,
 %	\authorcr\it\footnotesize Zhejiang University, Hangzhou 310027, China}
@@ -43,50 +38,51 @@
 %\affil[1]{Editorial Office of Journal of Zhejiang University SCIENCE,
 %\authorcr\Affilfont\it Hangzhou 310027, China}
 
-\authmark{ }
-
 \corremailA{jzus\_zzy@zju.edu.cn} 
-%\corremailB{xlhu@zju.edu.cn}
-\emailmark{}
-
-%\corremailA{jzus\_zzy@zju.edu.cn}
-%\corremailB{xlhu@zju.edu.cn}
+\corremailB{xlhu@zju.edu.cn}
 %\corremailC{abc@zju.edu.cn}
 %\corremailD{ABC@zju.edu.cn}
-%\emailmark{$\dagger$}
+\emailmark{$\dagger$}	% when all authors provide emails, no \dagger
 
-\abstract{This brief sample shows how to use the \emph{Frontiers of Information Technology {\sf \slshape \&} Electronic Engineering} (\emph{FITEE} for short) LaTex template, by listing the system requirement \& installation of compilation environments and including comments in the tex file to contain all possible instances that may occur in articles considered to be published in \emph{FITEE}, which starts in 2010, monthly, co-published by Zhejiang University Press and Springer. We also introduce the aim \& scope, database information, and online submission of \emph{FITEE}, and show the different paper formats at the two stages of ``manuscript preparation'' and ``revision \& acceptance''. The logos and homepage of the three sibling journals \emph{JZUS(A/B)} and \emph{FITEE} are also included.}
-\keywords{Manual; LaTex template; \emph{Frontiers of Information Technology {\sf \slshape \&} Electronic Engineering}}
 
-\shortauthor{Zhai et al.}	% first author
+% abbrev. of month: Jan. Feb. Mar. Apr. May June July Aug. Sept. Oct. Nov. Dec.
+\dateinfo{Received mmm.\ dd, 2016;	Revision accepted mmm.\ dd, 2016;    Crosschecked mmm.\ dd, 2017}
 
-\doi{http://dx.doi.org/10.1631/FITEE.1000000}	% ID of the paper, should be accurate
+
+\abstract{This brief sample shows how to use the \emph{Frontiers of Information Technology {\sf \slshape \&} Electronic Engineering} (\emph{FITEE} for short) LaTeX template, by listing the system requirement \& installation of compilation environments and including comments in the tex file to contain all possible instances that may occur in articles considered to be published in \emph{FITEE}, which starts in 2010, monthly, co-published by Zhejiang University Press and Springer. We also introduce the aim \& scope, database information, and online submission of \emph{FITEE}, and show the different paper formats at the two stages of ``manuscript preparation'' and ``revision \& acceptance''. The logos and homepage of the three sibling journals \emph{JZUS(A/B)} and \emph{FITEE} are also included.}
+
+% separate by semicolons 
+\keywords{Manual; LaTeX template; \emph{Frontiers of Information Technology {\sf \slshape \&} Electronic Engineering}}
+
+
+\doi{10.1631/FITEE.1000000}	% DOI of the paper, should be accurate
 \code{A}
 \clc{TP}
 
-\publishyear{2017}
-\vol{1}
+%\inpress	% uncomment this command if use "in press"
+
+\publishyear{2018}
+\vol{19}
 \issue{1}
 \pagestart{1}
 \pageend{5}
 
 %% when no funding, the following line should be removed, no period at last
-\support{Project (No.~xxxxxxxx) supported by the National Natural Science Foundation of China} 
+\support{Project supported by the National Natural Science Foundation of China (No.~xxxxxxxx)} 
 
 %\conf{A preliminary version of this paper has been presented at ??? Conference, date}
 %\esm{Electronic supplementary materials: The online version of this article (http://dx/doi.org/10.1631/jzus.C1000000) contains supplementary materials, which are available to authorized users}
-\orcid{ORCID: Zi-yang ZHAI, http://orcid.org/xxxx-xxxx-xxxx-xxxx}	% corresponding author, or first author
+\orcid{Zi-yang ZHAI, http://orcid.org/xxxx-xxxx-xxxx-xxxx}	% corresponding author, or first author
 \articleType{}
 %\articleType can be `Science Letters:', `Review:', `Comment:', etc.
 %Leave blank for research article.
 
-% abbrev. of month: Jan. Feb. Mar. Apr. May June July Aug. Sept. Oct. Nov. Dec.
-\dateinfo{Received Xxx.~xx, 2016;\ \ Revision accepted Xxx.~xx, 2016;\ \ Crosschecked Xxx.~xx, 2017}
-
 \maketitle
 
-\section{System requirement \& installation}\label{sec:introduction}
-  This is a brief example of using the \emph{FITEE} LaTex template to format the article published in \emph{Frontiers of Information Technology {\sf \slshape \&} Electronic Engineering} (\emph{FITEE} for short). This is the preliminary version of fitee.sty as well as fitee.bst as a template. Welcome reports on bugs and suggestions for improvement.
+
+
+\section{System requirement \& installation} \label{sec:introduction}
+  This is a brief example of using the \emph{FITEE} LaTeX template to format the article published in \emph{Frontiers of Information Technology {\sf \slshape \&} Electronic Engineering} (\emph{FITEE} for short). This is the preliminary version of fitee.sty as well as fitee.bst as a template. Welcome reports on bugs and suggestions for improvement.
 
 %This is \added[XSK]{new} text.
 %This is \deleted[XSK]{unnecessary} text.
@@ -94,15 +90,13 @@
 
 %\listofchanges
 
-This template has been tested under the Windows 2000/XP/Vista/Windows 7 operating system with the newest version MiKTex; it can also work with any previous version of MiKTex, even with MacTeX, teTeX and other LaTex implementations. The most convenient way is to put the files under the same directory as your LaTex source file. For saving processing time, we suggest authors use the default setting. It is highly recommended to download the newest version CTex from http://www.ctex.org
+This template has been tested under the Windows 2000/XP/Vista/Windows 7 operating system with the newest version MiKTex; it can also work with any previous version of MiKTex, even with MacTeX, teTeX and other LaTeX implementations. The most convenient way is to put the files under the same directory as your LaTeX source file. For saving processing time, we suggest authors use the default setting. It is highly recommended to download the newest version CTeX from http://www.ctex.org
 
 \section{Introduction of \emph{FITEE}}
 
 \noindent \textbf{Aim \& scope:} \emph{FITEE} (former title: \emph{Journal of Zhejiang University-SCIENCE C (Computers {\sf \slshape \&} Electronics)} (\emph{JZUS-C} for short)), is an international peer-reviewed journal. It covers research in Computer Science, Electrical and Electronic Engineering, Information Sciences, Automation, Control, Telecommunications, as well as Applied Mathematics related to Computer Science.
 
-\noindent \textbf{Database information:} \emph{FITEE} has been accepted by Science Citation Index-Expanded (SCI-E), Ei Compendex, DBLP, IC, Scopus, JST, CSA, etc. since 2010.
-
-
+\noindent \textbf{Database information:} \emph{FITEE} has been accepted by Science Citation Index-Expanded (SCI-E), Ei Compendex, DBLP, IC, Scopus, JST, CSA, etc., since 2010.
 
 
 \noindent \textbf{Online submission:} www.editorialmanager.com/\ zusc/
@@ -144,14 +138,21 @@ There will be an extra charge for those graphics considered for publication in c
 \centering
 \begin{tabular}{c}
 \includegraphics[scale=0.9]{pics/jzusalogo.eps}\\
-\footnotesize\sf (a)\\[3mm]
+{\footnotesize\sf (a)} \\[3mm]
 \includegraphics[scale=0.9]{pics/jzusblogo.eps}\\
-\footnotesize\sf (b)\\
+{\footnotesize\sf (b)} \\
 \includegraphics[scale=0.26]{pics/fiteelogo.eps}\\
-\footnotesize\sf (c)\\
+{\footnotesize\sf (c)} \\
 \end{tabular}
 \caption{Logos of \emph{Journal of Zhejiang University-SCIENCE A (Applied Physics {\sf \slshape \&} Engineering)} (a), \emph{Journal of Zhejiang University-SCIENCE B (Biomedicine {\sf \slshape \&} Biotechnology)} (b), and \emph{Frontiers of Information Technology {\sf \slshape \&} Electronic Engineering} (c)}
 \label{fig:logo}
+\end{figure}
+
+
+\begin{figure}[tbh]
+	\centering
+	\includegraphics[scale=0.60]{pics/outlierdetection.eps}
+	\caption{Comparison of different methods in terms of outlier detection accuracy \citep{Zhou11}} \label{fig:Prediction}
 \end{figure}
 
 
@@ -160,82 +161,73 @@ There will be an extra charge for those graphics considered for publication in c
 Tables should usually contain three horizontal lines. Do not use vertical lines. Each table must have a brief title that describes its contents. The title should be understandable without reference to the text. Details such as explanatory material, specific entries, and definitions of non-standard abbreviations should be put in table footnotes, not in the title. In setting up tables, authors should keep in mind the area of the Journal's page (16.4 cm $\times$ 22.8 cm) and the column width (8.0 cm) and should make tables conform to the limitations of these dimensions.
 
 \begin{table*}[thp]\footnotesize
-%\begin{footnotesize}
-\centering \caption{Results for face and eye detection processing
-using a Pentium IV 2.2 GHz
-CPU$^\textbf{*}$ \citep{Deniz10}}\label{Table:FacesDetected}
-\begin{tabular*}{16cm}{@{\qquad}l@{\qquad}c@{\qquad}c@{\qquad}ccc@{\qquad}c@{\qquad}c@{\qquad}c}
-\toprule[0.75pt]
-\multirow{2}{*}{Detector} & \multicolumn{3}{c}{TD (\%)} &  & \multicolumn{3}{c}{FD (\%)} & \multicolumn{1}{c}{Processing time} \\
-\cmidrule[0.5pt]{2-4}\cmidrule[0.5pt]{6-8}
-& Faces & Left eye & Right eye &  & Faces & Left eye & Right eye & (ms) \\
-\midrule[0.5pt]
-Rowley  & 89.27 & 77.51   &  78.18  &  &  2.16 & 0.80 & 1.00 & 422.4 \\
-Viola-Jones  & 97.69 & 0.00  &  0.00  &  & 8.25  &  &  & 117.5 \\
-ENCARA2  &  99.92 & 91.83 &  92.48 &  &  8.07  &  4.04 & 3.33 &45.6\\
-\bottomrule[0.75pt]
-\multicolumn{9}{p{15.6cm}}{\scriptsize $^*$ Taken
-from Castrill\'{o}n \emph{et al}. (2007). TD: correct detection
-ratio; FD: false detection ratio}
-
+\centering
+\caption{Results for face and eye detection processing using a Pentium IV 2.2 GHz CPU$^\textbf{*}$ \citep{Deniz10}} \label{Table:FacesDetected}
+\addtolength{\tabcolsep}{4.8pt}
+\begin{tabular*}{16.4cm}{lcccccccc}
+	\toprule[0.75pt]
+	\multirow{2}{*}{Detector}                  & \multicolumn{3}{c}{TD (\%)}  &  & \multicolumn{3}{c}{FD (\%)}  & \multicolumn{1}{c}{Processing time} \\
+	\cmidrule[0.5pt]{2-4}\cmidrule[0.5pt]{6-8} & Faces & Left eye & Right eye &  & Faces & Left eye & Right eye &                (ms)                 \\ 
+	\midrule[0.5pt]
+	Rowley                                     & 89.27 &  77.51   &   78.18   &  & 2.16  &   0.80   &   1.00    &                422.4                \\
+	Viola-Jones                                & 97.69 &   0.00   &   0.00    &  & 8.25  &          &           &                117.5                \\
+	ENCARA2                                    & 99.92 &  91.83   &   92.48   &  & 8.07  &   4.04   &   3.33    &                45.6                 \\ 
+	\bottomrule[0.75pt]
+	\multicolumn{9}{p{15.6cm}}{\scriptsize $^*$ Taken from Castrill\'{o}n {et al}. (2007). TD: correct detection ratio; FD: false detection ratio}
 \end{tabular*}
 \end{table*}
-
-
-\begin{figure}[tbh]
-  \centering
-      \includegraphics[width=7.2cm]{pics/outlierdetection.eps}
-  \caption{Comparison of different methods in terms of
-  outlier detection accuracy \citep{Zhou11}}\label{fig:Prediction}
-\end{figure}
-
 
 
 All tables must be mentioned in the text in consecutive order and must be numbered with Arabic numbers. Tables should be cited in the text using the following format: Table~1, Tables~1 and 2, or Tables~1--3.
 
 
 \begin{table}[thp]\footnotesize
-\caption{Video sequences used in the experiments, ordered by
-increasing head motion$^\textbf{*}$ \citep{Deniz10}}\label{Table:1}
 \centering
-\begin{tabular*}{7.9cm}{@{\qquad}c@{\qquad}c@{\qquad}c@{\qquad}c@{\qquad}}
-\toprule[0.75pt]
-Video  & Number of & Average    & Variance \\
-sequence       & frames    & distance & \ \ position \\
-\midrule[0.5pt]
-1     & 126    & 42.7 (1.6)                           & 8.2                       \\
-2     & 175    & 42.9 (2.2)                           & 11.1                      \\
-3     & 176    & 44.1 (1.8)                           & 11.3                      \\
-4     & 148    & 40.0 (2.8)                           & 27.1                      \\
-5     & 119    & 42.9 (2.8)                           & 37.7                      \\
-6     & 129    & 42.9 (4.4)                           & 120.8                      \\
-7     & 208    & 41.6 (3.1)                           & 164.4                      \\
-\bottomrule[0.75pt]
-\multicolumn{4}{p{7.6cm}}{\scriptsize $^*$ Taken from
-images captured by camera 1}
+\caption{Video sequences used in the experiments, ordered by increasing head motion$^\textbf{*}$ \citep{Deniz10}} \label{Table:1}
+\addtolength{\tabcolsep}{4.8pt}
+\begin{tabular*}{7.95cm}{cccc}
+	\toprule[0.75pt]
+	 Video   & Number of &  Average   &                   Variance                   \\
+	sequence &  frames   &  distance  &                   position                   \\ 
+	\midrule[0.5pt]
+	   1     &    126    & 42.7 (1.6) &                     8.2                      \\
+	   2     &    175    & 42.9 (2.2) &                     11.1                     \\
+	   3     &    176    & 44.1 (1.8) &                     11.3                     \\
+	   4     &    148    & 40.0 (2.8) &                     27.1                     \\
+	   5     &    119    & 42.9 (2.8) &                     37.7                     \\
+	   6     &    129    & 42.9 (4.4) &                    120.8                     \\
+	   7     &    208    & 41.6 (3.1) &                    164.4                     \\ 
+	\bottomrule[0.75pt]
+	\multicolumn{4}{p{6cm}}{\scriptsize $^*$ Taken from images captured by camera 1}
 \end{tabular*}
 \end{table}
 
 \subsubsection{Variables and formulate}
 
-Variables, regardless of the context (formula, figure, or table), should be in Italics (e.g., $x_1$); if a variable represents a vector or a matrix, it should be in Italics \& Bold (e.g., $\emph{\textbf{x}}_1$). Numerals and operators should never be italicized unless they are components of a variable. The following are some typical equations \citep{Theodoridis11}:
+Variables, regardless of the context (formula, figure, or table), should be in Italics (e.g., $x_1$); if a variable represents a vector or a matrix, it should be in Italics \& Bold (e.g., $\bm{x}_1$). Numerals and operators should never be italicized unless they are components of a variable. The following are some typical equations \citep{Theodoridis11}:
 
 \begin{equation}
-{{\rm d} \over {{\rm d}t}}{|\bar {\emph{\textbf{x}}}_{f_i} \cdot {\emph{\textbf{W}}}_{f_i}^l |^2 }= ({{\emph{\textbf{W}}}_{f_i}^l})^{\rm T} \dot {\emph{\textbf{W}}}_{f_i}^l \bar {\emph{\textbf{x}}}_{f_i}({\bar {\emph{\textbf{x}}}_{f_i}})^{\rm T},
+\frac{\mathrm{d}}{\mathrm{d}t} {| \bar{\bm{x}}_{f_i} \cdot {\bm{W}}_{f_i}^l |^2 }= ({{\bm{W}}_{f_i}^l})^\mathrm{T} \dot {\bm{W}}_{f_i}^l \bar {\bm{x}}_{f_i} ({\bar {\bm{x}}_{f_i}})^\mathrm{T},
 \end{equation}
 \begin{equation}\label{indicatorfunc}
-I_{{{j_{1}},{j_{2}},...,{j_{n}}}}^{{{l_{1}},{l_{2}},...,{l_{n}}}} (\emph{\textbf{x}}(t))= \left\{ \begin{matrix}\alpha(\emph{\textbf{x}}(t)), & {\mathrm{if}\:\emph{\textbf{x}}(t) \in\Omega_{{{j_{1}},{j_{2}},...,{j_{n}}}}^{{{l_{1}},{l_{2}},...,{l_{n}}}}},\cr 0, & {\mathrm{otherwise,}}\cr\end{matrix}\right.
+I_{j_1, j_2, \ldots, j_n}^{l_1, l_2, \ldots, l_n} (\bm{x}(t))= 
+	\begin{cases}
+		\alpha(\bm{x}(t)), & \mathrm{if}\ \bm{x}(t) \in \Omega_{j_1, j_2, \ldots, j_n}^{l_1, l_2, \ldots, l_n}, \\
+		0,                 & \mathrm{otherwise},
+	\end{cases}
 \end{equation}
-\begin{eqnarray}\label{eqn:Lyapdisturb1}
-\dot V & \leq & - \lambda_{\rm min}\left( K \right) \left\| {\bm \xi} \right\|^2 - \lambda_{\rm min}\left( K \right) \left\| {\bm \zeta} \right\|^2  \nonumber\\
-&& +\theta_{\rm ud} \left\| {\bm \xi} \right\| + 4 \rho \left\| {{\bm \xi} } \right\|^2 \nonumber\\
-& \leq & - \left[ \left( \lambda_{\rm min}\left( K \right)- 4 \rho \right)\left\| {\bm \xi} \right\|  -  \theta_{\rm ud}  \right] \left\| {\bm \xi} \right\|  \nonumber\\
-&& -\lambda_{\rm min}\left( K \right) \left\| {\bm \zeta} \right\|^2 \nonumber\\
-&\leq& 0.
-\end{eqnarray}
+\begin{equation}\label{eqn:Lyapdisturb1}
+\begin{aligned}
+	\dot{V} & \leq  - \lambda_{\min} ( K ) \| \bm{\xi} \|^2 - \lambda_{\min} ( K ) \| \bm{\zeta} \|^2                       \\
+	        & \quad + \theta_\mathrm{ud} \| \bm{\xi} \| + 4 \rho \| \bm{\xi} \|^2                                           \\
+	        & \leq  - \left[ ( \lambda_{\min} ( K )- 4 \rho ) \| \bm{\xi} \|  -  \theta_\mathrm{ud}  \right] \| \bm{\xi} \| \\
+	        & \quad -\lambda_{\min} ( K ) \left\| \bm{\zeta} \right\|^2                                                     \\
+	        & \leq 0.
+\end{aligned}
+\end{equation}
 
 
-\subsubsection{Theorem, algorithm and other environments}
+\subsubsection{Theorem, algorithm, and other environments}
 
 \begin{definition}[Definition title here]
 This is an illustration of a definition.
@@ -264,7 +256,8 @@ This is an illustration of Theorem~2.
 The following is a sample algorithm: Algorithm~\ref{alg:update-alg} \citep{Xu11}.
 
 \begin{algorithm}\small
-\caption{Iterative algorithm for Bayes risk decoding} \centering
+\centering
+\caption{Iterative algorithm for Bayes risk decoding} \label{alg:update-alg}
 \begin{algorithmic}[1]
 	\STATE {$R' \gets \text{MAP-Decode}(\mathcal T)$}
 	\algocomment{One-best to initialize}
@@ -272,9 +265,9 @@ The following is a sample algorithm: Algorithm~\ref{alg:update-alg} \citep{Xu11}
 	\algocomment{ Add $\epsilon$ word to normalize $R'$}
 	\LOOP	
             \STATE {do forward algorithm, yielding estimate $\hat E_1$}
-		\FOR{ $k \gets  1 ~{\rm to}~ |R'| $ }
+		\FOR{ $k \gets  1 ~\mathrm{to}~ |R'| $ }
 		\STATE{do backward algorithm, obtaining $\gamma(k, w(a))$}
-		\STATE{update to $R$: $r_k \gets {\rm max}_{w(a)}\gamma_{R'}(k,w(a))$}
+		\STATE{update to $R$: $r_k \gets {\max}_{w(a)}\gamma_{R'}(k,w(a))$}
 		\ENDFOR
 		\STATE{do line~4~with $R$, obtaining $\hat E_2$}
 		\IF{$\hat E_2 -\hat E_1 =0$}
@@ -287,24 +280,23 @@ The following is a sample algorithm: Algorithm~\ref{alg:update-alg} \citep{Xu11}
 	\STATE {$R' \gets {\text {RemoveEps}}(R')$}
 	\algocomment{Remove $\epsilon$ word to output}
 \end{algorithmic}
-	\label{alg:update-alg}
 \end{algorithm}	
 
 \subsubsection{References \& text citation}
 
 The reference list provides complete information of the author-date citation in English and lists in alphabetical order of authors' surnames.
-References with more than 10 authors must list the first 10 authors, followed by \emph{et al}. The references mentioned in the text should accord with the reference list. For a reference published other than in English, the language used should be noted at the end of the reference list, e.g., ``(in Chinese)''. The publisher and place of publication should be given for a book or proceedings. The DOI (refer to http://www.doi.org) should be provided if it is available.
+References with more than 10 authors must list the first 10 authors, followed by {et al}. The references mentioned in the text should accord with the reference list. For a reference published other than in English, the language used should be noted at the end of the reference list, e.g., ``(in Chinese)''. The publisher and place of publication should be given for a book or proceedings. The DOI (refer to http://www.doi.org) should be provided if it is available.
 
-Here are the rules: the command ``$\backslash$citep\{\}'' provides a pair
-around the reference, while ``$\backslash$cite\{\}'' cannot. The
+Here are the rules: the command `$\backslash$citep\{\}' provides a pair
+around the reference, while `$\backslash$cite\{\}' cannot. The
 following are some constantly used citations in our template. When
 you cannot determine the reference type, or the reference type is
-not included in our template, please use the ``misc'' type. Any
+not included in our template, please use the `misc' type. Any
 suggestion on the improvement of the fitee.bst is welcome.
 \begin{itemize}
 \itemsep -1pt
 \item For journal articles \citep{Kampf02, TWFS03, Yu10}
-\item For whole books/monographs \citep{Gregersen06} or chapters in edited books \citep{Prigogine76}
+\item For whole books/monographs or chapters in edited books \citep{Prigogine76}
 \item For a proceeding \citep{GQMPSD06}
 \item For a master or PhD dissertation \citep{Rizvi06}
 \item For a report \citep{Sweeney00}
@@ -316,7 +308,7 @@ suggestion on the improvement of the fitee.bst is welcome.
 
 For details, see ``Reference list examples'' at http://www.zju.edu.cn/jzus/revacc.htm\#1
 
-\balance
+%\balance
 \bibliographystyle{fitee}
 \bibliography{bibsample}
 
@@ -377,7 +369,6 @@ For details, see ``Reference list examples'' at http://www.zju.edu.cn/jzus/revac
 %\item  Zhou, X.C., SHEN, H.B., YE, J.P., 2011. Integrating outlier filtering in large margin training. {\em J. Zhejiang Univ.-Sci. C (Comput. \& Electron.)}, {\bf12}(5):362--370. [doi:10.1631/jzus.C1000361]
 %
 %\end{description}
-
 
 
 \end{document}

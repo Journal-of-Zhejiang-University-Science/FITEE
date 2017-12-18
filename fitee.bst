@@ -2,7 +2,7 @@
 %% This is file fitee.bst',
 %% generated with the docstrip utility.
 %% 
-%% August 22, 2017
+%% August 22, 2017 and December 12, 2017
 %% Modified by Ph.D. Shengke Xue with the College of Information Science  
 %% and Electronic Engineering, Zhejiang University
 %% 
@@ -226,7 +226,8 @@ FUNCTION {format.names}
   numnames 'namesleft :=
     { namesleft #0 > }
 %    { s nameptr "{vv~}{ll}{, jj}{, ff}" format.name$ 't :=    % last name firts
-    { s nameptr "{vv~}{ll}{, jj}{, f{.}.}" format.name$ 't :=  % last name ahead, first name abbreviated
+%    { s nameptr "{vv~}{ll}{, jj}{, f{.}.}" format.name$ 't :=  % last name ahead, first name abbreviated
+    { s nameptr "{vv~}{ll}{ jj}{ f{}}" format.name$ 't :=  % last name ahead, first name abbreviated, no comma, no dot,
       nameptr #1 >
 		{
           nameptr #3
@@ -246,7 +247,8 @@ FUNCTION {format.names}
               "," *
               t "others" =
                 {
-                  " \emph{et~al.}" *
+%                    " \emph{et~al.}" *
+				   " {et~al.}" *
                 }
                 { " " * t * }
               if$
@@ -277,12 +279,15 @@ FUNCTION {format.lab.names}
   s #1 "{ll}" format.name$
   s num.names$ duplicate$
   #2 >
-    { pop$ " \emph{et~al.}" * }
+%    { pop$ " \emph{et~al.}" * }
+    { pop$ " {et~al.}" * }
     { #2 <
     'skip$
 %    { s #2 "{vv~}{ ll}{, jj}{, ff}" format.name$ "others" =
-    { s #2 "{vv~}{ll}{, jj}{, f{.}.}" format.name$ "others" =  % last name ahead, first name abbreviated
-        { " \emph{et~al.}" * }
+%    { s #2 "{vv~}{ll}{, jj}{, f{.}.}" format.name$ "others" =  % last name ahead, first name abbreviated
+    { s #2 "{vv~}{ll}{ jj}{ f{}}" format.name$ "others" =  % last name ahead, first name abbreviated, no comma, no dot,    
+%        { " \emph{et~al.}" * }
+        { " {et~al.}" * }
         { " and " * s #2 "{ll}" format.name$ * }
       if$
     }
@@ -322,6 +327,24 @@ FUNCTION {format.atitle}
     { "" }
     { title "t" change.case$ } % 'u' for upper case and 't' only captalize the first one
   if$
+}
+
+FUNCTION {remove.dots} 
+{
+	duplicate$ empty$
+	{ pop$ "" }
+	{ 
+		't := ""
+		{ t empty$ not }
+		{   t #1 #1 substring$ "." = 
+			  'skip$
+			  {  t #1 #1 substring$ *  }
+      	    if$
+      	    t #2 global.max$ substring$ 't :=
+		}
+		while$
+	}
+	if$
 }
 
 FUNCTION {n.dashify} 
@@ -462,7 +485,8 @@ FUNCTION {format.vol.number.pages}
 { 
   volume  empty$
     { ", " * field.or.null  "empty VOLUME in " cite$ * warning$ } % warning if the field is empty
-    { "{\bf " volume * "}" * field.or.null }
+%    { "{\bf " volume * "}" * field.or.null }
+    { " " volume * field.or.null }
   if$
   number empty$
     { "empty NUMBER in " cite$ * warning$ } % warning if the field is empty
@@ -554,7 +578,7 @@ FUNCTION {format.doi} {
 		{ "" }
 		if$	 
 		write$ 
-		" \\ http://dx.doi.org/" doi * 
+		" \\ https://doi.org/" doi * 
 		write$ ", " 
 		pop$  % pop up the last word "," and therefore no "."	  
      }
@@ -569,7 +593,8 @@ FUNCTION {article}
   new.block
   format.atitle "title" output.check
   new.block
-  journal emphasize "journal" output.check
+%  journal emphasize "journal" output.check
+  journal remove.dots emphasize "journal" output.check
   format.vol.number.pages output
   new.block  
   format.url.note 
@@ -606,7 +631,8 @@ FUNCTION {inbook}
   new.block
   title "title" output.check
   new.block
-   "{\it In}: " format.editors * booktitle * output
+%   "{\it In}: " format.editors * booktitle * output
+   "In: " format.editors * booktitle * output
   new.block
   publisher "publisher" output.check
   address output
@@ -628,7 +654,7 @@ FUNCTION {conference}
   new.block
   format.title "title" output.check
   new.block
-  booktitle  "booktitle" output.check
+  booktitle remove.dots "booktitle" output.check
   address  output
   volume empty$
     { format.cpages output }
@@ -646,11 +672,10 @@ FUNCTION {thesis} {
   format.authors "author" output.check
   output.year.check                 % apalike
   new.block
-  title "title" output.check
+  format.title "title" output.check
   new.block
   type "thesis type" output.check
-  school "school" output.check
-%  address output
+  school   "school"  output.check
   address  "address" output.check
   pages empty$
     'skip$
@@ -668,7 +693,7 @@ FUNCTION {techreport}
   format.authors "author" output.check
   output.year.check                 % apalike
   new.block
-  title "title" output.check
+  format.title "title" output.check
   new.block
   type output
   number output
@@ -687,7 +712,7 @@ FUNCTION {preprints}
   new.block
   format.title "title" output.check
   new.block
-  journal emphasize output
+  journal remove.dots emphasize output
   new.block
   format.url.note
   new.block
@@ -702,7 +727,7 @@ FUNCTION {patent}
   format.authors "author" output.check
   output.year.check                 % apalike
   new.block
-  title "title" output.check
+  format.title "title" output.check
   new.block
   nationality "paten nationality" output.check
   number " patent number" output.check
@@ -716,14 +741,14 @@ FUNCTION {misc}
   organization output
   output.year.check                 % apalike
   new.block
-  format.title output
+  title "title" output.check
   new.block
   howpublished output
   new.block
   url empty$
     'skip$
     {
-      "\\" url * output
+      "\\ " url * output
       write$ ","
       pop$
     }
