@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=latex 2017.7.27)  17 DEC 2017 11:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=latex 2017.7.27)  8 MAR 2018 16:22
 entering extended mode
 **./sample.tex
 (sample.tex
@@ -556,8 +556,12 @@ LaTeX Info: Redefining \nameref on input line 14.
 \@outlinefile=\write3
 \openout3 = `sample.out'.
 
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 LaTeX Font Info:    Try loading font information for U+msa on input line 81.
- (D:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+(D:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 81.
@@ -676,12 +680,12 @@ LaTeX Font Info:    Font shape `T1/ua1/m/sl' in size <10> not available
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
 (Font)              scaled to size 9.49997pt on input line 85.
 
-Underfull \hbox (badness 2042) in paragraph at lines 108--109
+Underfull \hbox (badness 2042) in paragraph at lines 105--106
 [][]\T1/cmr/m/n/10 The elec-tronic manuscript should be pre-
  []
 
 
-Underfull \hbox (badness 1917) in paragraph at lines 108--109
+Underfull \hbox (badness 1917) in paragraph at lines 105--106
 \T1/cmr/m/n/10 pared to ac-cord with the fol-low-ing (see also
  []
 
@@ -689,55 +693,55 @@ Underfull \hbox (badness 1917) in paragraph at lines 108--109
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/ua1/m/sl' in size <7> not available
-(Font)              Font shape `T1/ua1/m/it' tried instead on input line 109.
+(Font)              Font shape `T1/ua1/m/it' tried instead on input line 106.
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
-(Font)              scaled to size 6.64998pt on input line 109.
+(Font)              scaled to size 6.64998pt on input line 106.
  [1
 
 
 ]
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 139.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 136.
 File: pics/jzusalogo.eps Graphic file (type eps)
 
 <pics/jzusalogo.eps>
 LaTeX Font Info:    Font shape `T1/ua1/m/n' will be
-(Font)              scaled to size 7.59998pt on input line 141.
+(Font)              scaled to size 7.59998pt on input line 138.
 File: pics/jzusblogo.eps Graphic file (type eps)
  <pics/jzusblogo.eps>
 File: pics/fiteelogo.eps Graphic file (type eps)
  <pics/fiteelogo.eps>
 LaTeX Font Info:    Font shape `T1/ua1/m/sl' in size <8> not available
-(Font)              Font shape `T1/ua1/m/it' tried instead on input line 147.
+(Font)              Font shape `T1/ua1/m/it' tried instead on input line 144.
 LaTeX Font Info:    Font shape `T1/ua1/m/it' will be
-(Font)              scaled to size 7.59998pt on input line 147.
+(Font)              scaled to size 7.59998pt on input line 144.
 
-Underfull \hbox (badness 3019) in paragraph at lines 147--147
+Underfull \hbox (badness 3019) in paragraph at lines 144--144
 \T1/cmr/bx/it/8 SCIENCE A (Ap-plied Physics \T1/ua1/m/it/8 & \T1/cmr/bx/it/8 En
 -gi-neer-ing)
  []
 
 File: pics/outlierdetection.eps Graphic file (type eps)
 <pics/outlierdetection.eps>
-Overfull \hbox (4.8516pt too wide) in paragraph at lines 154--155
+Overfull \hbox (4.8516pt too wide) in paragraph at lines 151--152
  [][][] 
  []
 
 [2]
-Underfull \hbox (badness 10000) in alignment at lines 167--177
+Underfull \hbox (badness 10000) in alignment at lines 164--174
 [][][][][][][][][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6078) has occurred while \output is active []
 
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 260.
+put line 257.
  [3]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 298.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 295.
 
-Underfull \hbox (badness 3009) in paragraph at lines 306--307
+Underfull \hbox (badness 3009) in paragraph at lines 303--304
 [][]\T1/cmr/m/n/10 For an elec-tronic ma-te-rial ([]Uni-ver-sity of
  []
 
@@ -747,14 +751,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--77
  []
 
 [4])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 374.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 371.
  [5
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 374.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 371.
  (sample.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 374.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 374.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 371.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 371.
 Package rerunfilecheck Info: File `sample.out' has not changed.
 (rerunfilecheck)             Checksum: 8A3EB4C9E8308D3EEF442C9CE9B6C67A;729.
 
@@ -762,15 +766,15 @@ Package rerunfilecheck Info: File `sample.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.28pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 374.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 371.
  ) 
 Here is how much of TeX's memory you used:
- 8950 strings out of 493319
- 124588 string characters out of 3144728
+ 8955 strings out of 493319
+ 124679 string characters out of 3144728
  231873 words of memory out of 3000000
- 12262 multiletter control sequences out of 15000+200000
- 84970 words of font info for 144 fonts, out of 3000000 for 9000
+ 12266 multiletter control sequences out of 15000+200000
+ 85753 words of font info for 145 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,16n,45p,819b,586s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on sample.dvi (5 pages, 48636 bytes).
+Output written on sample.dvi (5 pages, 48764 bytes).

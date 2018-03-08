@@ -14,7 +14,7 @@
 \begin{document}
 
 %% article title
-\title{Example of using \emph{FITEE} LaTeX template \\ second line if necessary}
+\title{Example of using \emph{FITEE} \LaTeX{} template \\ second line if necessary}
 
 %% when all authors provide emails, no $\dagger$
 \author[$\dagger$$\ddagger$1]{Zi-yang ZHAI}%
@@ -46,7 +46,7 @@
 
 
 % abbrev. of month: Jan. Feb. Mar. Apr. May June July Aug. Sept. Oct. Nov. Dec.
-\dateinfo{Received mmm.\ dd, 2016;	Revision accepted mmm.\ dd, 2016;    Crosschecked mmm.\ dd, 2017}
+\dateinfo{Received mmm.\ dd, 2017;	Revision accepted mmm.\ dd, 2017;    Crosschecked mmm.\ dd, 2018}
 
 
 \abstract{This brief sample shows how to use the \emph{Frontiers of Information Technology {\sf \slshape \&} Electronic Engineering} (\emph{FITEE} for short) LaTeX template, by listing the system requirement \& installation of compilation environments and including comments in the tex file to contain all possible instances that may occur in articles considered to be published in \emph{FITEE}, which starts in 2010, monthly, co-published by Zhejiang University Press and Springer. We also introduce the aim \& scope, database information, and online submission of \emph{FITEE}, and show the different paper formats at the two stages of ``manuscript preparation'' and ``revision \& acceptance''. The logos and homepage of the three sibling journals \emph{JZUS(A/B)} and \emph{FITEE} are also included.}
@@ -84,9 +84,6 @@
 \section{System requirement \& installation} \label{sec:introduction}
   This is a brief example of using the \emph{FITEE} LaTeX template to format the article published in \emph{Frontiers of Information Technology {\sf \slshape \&} Electronic Engineering} (\emph{FITEE} for short). This is the preliminary version of fitee.sty as well as fitee.bst as a template. Welcome reports on bugs and suggestions for improvement.
 
-%This is \added[XSK]{new} text.
-%This is \deleted[XSK]{unnecessary} text.
-%This is \replaced[XSK]{normal}{bad} text.
 
 %\listofchanges
 
@@ -138,13 +135,13 @@ There will be an extra charge for those graphics considered for publication in c
 \centering
 \begin{tabular}{c}
 \includegraphics[scale=0.9]{pics/jzusalogo.eps}\\
-{\footnotesize\sf (a)} \\[3mm]
+{\footnotesize\sf (a)} \\
 \includegraphics[scale=0.9]{pics/jzusblogo.eps}\\
 {\footnotesize\sf (b)} \\
 \includegraphics[scale=0.26]{pics/fiteelogo.eps}\\
 {\footnotesize\sf (c)} \\
 \end{tabular}
-\caption{Logos of \emph{Journal of Zhejiang University-SCIENCE A (Applied Physics {\sf \slshape \&} Engineering)} (a), \emph{Journal of Zhejiang University-SCIENCE B (Biomedicine {\sf \slshape \&} Biotechnology)} (b), and \emph{Frontiers of Information Technology {\sf \slshape \&} Electronic Engineering} (c)}
+\caption{Logos of \emph{Journal of Zhejiang University-SCIENCE A (Applied Physics {\sf \slshape \&} Engineering)} (a), \emph{Journal of Zhejiang University-SCIENCE B (Biomedicine {\sf \slshape \&} Biotechnology)} (b), and \emph{Frontiers of Information Technology {\sf \slshape \&} Electronic Engineering} (c). References to color refer to the online version of this figure}
 \label{fig:logo}
 \end{figure}
 
@@ -202,10 +199,10 @@ All tables must be mentioned in the text in consecutive order and must be number
 \end{tabular*}
 \end{table}
 
+
 \subsubsection{Variables and formulate}
 
 Variables, regardless of the context (formula, figure, or table), should be in Italics (e.g., $x_1$); if a variable represents a vector or a matrix, it should be in Italics \& Bold (e.g., $\bm{x}_1$). Numerals and operators should never be italicized unless they are components of a variable. The following are some typical equations \citep{Theodoridis11}:
-
 \begin{equation}
 \frac{\mathrm{d}}{\mathrm{d}t} {| \bar{\bm{x}}_{f_i} \cdot {\bm{W}}_{f_i}^l |^2 }= ({{\bm{W}}_{f_i}^l})^\mathrm{T} \dot {\bm{W}}_{f_i}^l \bar {\bm{x}}_{f_i} ({\bar {\bm{x}}_{f_i}})^\mathrm{T},
 \end{equation}
