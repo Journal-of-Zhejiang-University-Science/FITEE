@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=latex 2017.7.27)  8 MAR 2018 16:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=latex 2017.7.27)  24 JUN 2018 10:22
 entering extended mode
 **./sample.tex
 (sample.tex
@@ -350,46 +350,46 @@ LaTeX Font Info:    Overwriting symbol font `ugrf@m' in version `bold'
 (D:\CTEX\UserData\tex\latex\titlesec\block.tss
 File: block.tss 2016/03/15
 )
-LaTeX Font Info:    Redeclaring math symbol \alpha on input line 475.
-LaTeX Font Info:    Redeclaring math symbol \beta on input line 476.
-LaTeX Font Info:    Redeclaring math symbol \gamma on input line 477.
-LaTeX Font Info:    Redeclaring math symbol \delta on input line 478.
-LaTeX Font Info:    Redeclaring math symbol \epsilon on input line 479.
-LaTeX Font Info:    Redeclaring math symbol \zeta on input line 480.
-LaTeX Font Info:    Redeclaring math symbol \eta on input line 481.
-LaTeX Font Info:    Redeclaring math symbol \theta on input line 482.
-LaTeX Font Info:    Redeclaring math symbol \iota on input line 483.
-LaTeX Font Info:    Redeclaring math symbol \kappa on input line 484.
-LaTeX Font Info:    Redeclaring math symbol \lambda on input line 485.
-LaTeX Font Info:    Redeclaring math symbol \mu on input line 486.
-LaTeX Font Info:    Redeclaring math symbol \nu on input line 487.
-LaTeX Font Info:    Redeclaring math symbol \xi on input line 488.
-LaTeX Font Info:    Redeclaring math symbol \pi on input line 489.
-LaTeX Font Info:    Redeclaring math symbol \rho on input line 490.
-LaTeX Font Info:    Redeclaring math symbol \sigma on input line 491.
-LaTeX Font Info:    Redeclaring math symbol \tau on input line 492.
-LaTeX Font Info:    Redeclaring math symbol \upsilon on input line 493.
-LaTeX Font Info:    Redeclaring math symbol \phi on input line 494.
-LaTeX Font Info:    Redeclaring math symbol \chi on input line 495.
-LaTeX Font Info:    Redeclaring math symbol \psi on input line 496.
-LaTeX Font Info:    Redeclaring math symbol \omega on input line 497.
-LaTeX Font Info:    Redeclaring math symbol \varepsilon on input line 498.
-LaTeX Font Info:    Redeclaring math symbol \vartheta on input line 499.
-LaTeX Font Info:    Redeclaring math symbol \varpi on input line 500.
-LaTeX Font Info:    Redeclaring math symbol \varrho on input line 501.
-LaTeX Font Info:    Redeclaring math symbol \varsigma on input line 502.
-LaTeX Font Info:    Redeclaring math symbol \varphi on input line 503.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 505.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 506.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 507.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 508.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 509.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 510.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 511.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 512.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 513.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 514.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 515.
+LaTeX Font Info:    Redeclaring math symbol \alpha on input line 481.
+LaTeX Font Info:    Redeclaring math symbol \beta on input line 482.
+LaTeX Font Info:    Redeclaring math symbol \gamma on input line 483.
+LaTeX Font Info:    Redeclaring math symbol \delta on input line 484.
+LaTeX Font Info:    Redeclaring math symbol \epsilon on input line 485.
+LaTeX Font Info:    Redeclaring math symbol \zeta on input line 486.
+LaTeX Font Info:    Redeclaring math symbol \eta on input line 487.
+LaTeX Font Info:    Redeclaring math symbol \theta on input line 488.
+LaTeX Font Info:    Redeclaring math symbol \iota on input line 489.
+LaTeX Font Info:    Redeclaring math symbol \kappa on input line 490.
+LaTeX Font Info:    Redeclaring math symbol \lambda on input line 491.
+LaTeX Font Info:    Redeclaring math symbol \mu on input line 492.
+LaTeX Font Info:    Redeclaring math symbol \nu on input line 493.
+LaTeX Font Info:    Redeclaring math symbol \xi on input line 494.
+LaTeX Font Info:    Redeclaring math symbol \pi on input line 495.
+LaTeX Font Info:    Redeclaring math symbol \rho on input line 496.
+LaTeX Font Info:    Redeclaring math symbol \sigma on input line 497.
+LaTeX Font Info:    Redeclaring math symbol \tau on input line 498.
+LaTeX Font Info:    Redeclaring math symbol \upsilon on input line 499.
+LaTeX Font Info:    Redeclaring math symbol \phi on input line 500.
+LaTeX Font Info:    Redeclaring math symbol \chi on input line 501.
+LaTeX Font Info:    Redeclaring math symbol \psi on input line 502.
+LaTeX Font Info:    Redeclaring math symbol \omega on input line 503.
+LaTeX Font Info:    Redeclaring math symbol \varepsilon on input line 504.
+LaTeX Font Info:    Redeclaring math symbol \vartheta on input line 505.
+LaTeX Font Info:    Redeclaring math symbol \varpi on input line 506.
+LaTeX Font Info:    Redeclaring math symbol \varrho on input line 507.
+LaTeX Font Info:    Redeclaring math symbol \varsigma on input line 508.
+LaTeX Font Info:    Redeclaring math symbol \varphi on input line 509.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 511.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 512.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 513.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 514.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 515.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 516.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 517.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 518.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 519.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 520.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 521.
 )
 (D:\CTEX\MiKTeX\tex\latex\hyperref\hyperref.sty
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
@@ -556,12 +556,8 @@ LaTeX Info: Redefining \nameref on input line 14.
 \@outlinefile=\write3
 \openout3 = `sample.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 LaTeX Font Info:    Try loading font information for U+msa on input line 81.
-(D:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+ (D:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 81.
@@ -690,7 +686,7 @@ Underfull \hbox (badness 1917) in paragraph at lines 105--106
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1975) has occurred while \output is active []
 
 LaTeX Font Info:    Font shape `T1/ua1/m/sl' in size <7> not available
 (Font)              Font shape `T1/ua1/m/it' tried instead on input line 106.
@@ -769,12 +765,12 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 371.
  ) 
 Here is how much of TeX's memory you used:
- 8955 strings out of 493319
- 124679 string characters out of 3144728
- 231873 words of memory out of 3000000
- 12266 multiletter control sequences out of 15000+200000
+ 8953 strings out of 493319
+ 124633 string characters out of 3144728
+ 231903 words of memory out of 3000000
+ 12264 multiletter control sequences out of 15000+200000
  85753 words of font info for 145 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,16n,45p,819b,586s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on sample.dvi (5 pages, 48764 bytes).
+Output written on sample.dvi (5 pages, 48912 bytes).
