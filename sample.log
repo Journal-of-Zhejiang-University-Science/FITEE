@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=latex 2017.7.27)  13 JUL 2018 13:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350) (preloaded format=latex 2017.7.27)  2 AUG 2018 18:01
 entering extended mode
 **./sample.tex
 (sample.tex
@@ -459,6 +459,7 @@ File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
 (D:\CTEX\MiKTeX\tex\latex\00miktex\hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 4374.
 Package hyperref Info: Option `breaklinks' set `true' on input line 4374.
 Package hyperref Info: Hyper figures OFF on input line 4498.
 Package hyperref Info: Link nesting OFF on input line 4503.
@@ -482,7 +483,7 @@ Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
 Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring ON on input line 6376.
 Package hyperref Info: Link coloring with OCG OFF on input line 6383.
 Package hyperref Info: PDF/A mode OFF on input line 6388.
 LaTeX Info: Redefining \ref on input line 6428.
@@ -492,7 +493,7 @@ LaTeX Info: Redefining \pageref on input line 6432.
 \c@Hfootnote=\count129
 )
 
-Package hyperref Message: Driver: hdvips.
+Package hyperref Message: Driver (default): hdvips.
 
 (D:\CTEX\MiKTeX\tex\latex\hyperref\hdvips.def
 File: hdvips.def 2017/03/14 v6.85a Hyperref driver for dvips
@@ -538,7 +539,7 @@ LaTeX Font Info:    ... okay on input line 14.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 14.
+Package hyperref Info: Link coloring ON on input line 14.
 
 (D:\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -556,12 +557,8 @@ LaTeX Info: Redefining \nameref on input line 14.
 \@outlinefile=\write3
 \openout3 = `sample.out'.
 
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
-
 LaTeX Font Info:    Try loading font information for U+msa on input line 81.
-(D:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
+ (D:\CTEX\MiKTeX\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 81.
@@ -742,7 +739,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 295.
 
 Underfull \hbox (badness 3009) in paragraph at lines 303--304
-[][]\T1/cmr/m/n/10 For an elec-tronic ma-te-rial ([]Uni-ver-sity of
+[][]\T1/cmr/m/n/10 For an elec-tronic ma-te-rial ([][]Uni-ver-sity of
  []
 
 (sample.bbl
@@ -769,12 +766,12 @@ LaTeX Font Warning: Size substitutions with differences
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 371.
  ) 
 Here is how much of TeX's memory you used:
- 8955 strings out of 493319
- 124679 string characters out of 3144728
- 231903 words of memory out of 3000000
- 12266 multiletter control sequences out of 15000+200000
+ 8953 strings out of 493319
+ 124633 string characters out of 3144728
+ 231837 words of memory out of 3000000
+ 12264 multiletter control sequences out of 15000+200000
  85753 words of font info for 145 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  43i,16n,45p,819b,586s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on sample.dvi (5 pages, 48912 bytes).
+Output written on sample.dvi (5 pages, 50420 bytes).
